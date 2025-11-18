@@ -1,0 +1,19 @@
+#create your docker-compose file by following your service requirements. Here is a sample structure.
+
+version: '3.8'
+
+services:
+  app:
+    image: your-app-image:latest
+    container_name: app-container
+    ports:
+      - "8080:8080" # Map host port 8080 to container port 8080
+    environment:
+      - ENV_VAR_NAME=value # Add your environment variables here
+    volumes:
+      - ./src:/app/src # Mount local src directory to container
+    restart: unless-stopped
+
+
+volumes:
+    driver: local
