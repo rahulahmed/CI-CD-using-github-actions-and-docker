@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# CI-CD-Test
-testing
-=======
 # Complete CI/CD Pipeline Setup Using GitHub Actions & Self-Hosted Runner (Production-Ready Guide)
 
 A fully production-grade CI/CD pipeline using GitHub Actions, Docker, Docker Compose, and a self-hosted GitHub runner. This guide shows how to automate **build → push → deploy → health check → rollback** without downtime.
