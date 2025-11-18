@@ -185,4 +185,4 @@ If the container becomes unhealthy, the system will:
   - Rollback occurs if needed
 
 This creates a robust & production-ready CI/CD pipeline for any Docker service.
->>>>>>> fd2bd49 (Initial commit: Added CI/CD pipeline files and Docker setup)
+
