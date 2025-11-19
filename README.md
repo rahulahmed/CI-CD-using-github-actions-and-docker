@@ -182,3 +182,7 @@ If the container becomes unhealthy, the system will:
 
 This creates a robust & production-ready CI/CD pipeline for any Docker service.
 
+# Thanks for review this repo, hope it will make life easier.
+
+Author: Rahul Ahmed (DevOps Engineer)
+
